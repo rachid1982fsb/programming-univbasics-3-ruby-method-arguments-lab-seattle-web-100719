@@ -8,7 +8,7 @@
  
 
 
-introduction("Rachid")
+puts introduction("Rachid")
 
 
 
