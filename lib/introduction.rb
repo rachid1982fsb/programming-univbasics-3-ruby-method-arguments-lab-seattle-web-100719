@@ -14,8 +14,10 @@ def introduction_with_language_optional(name,language="Ruby")
  puts  "Hi, my name is #{name} and I am learning to program in #{language}."
 end
   
-puts introduction("Rachid")
-puts introduction_with_language("Zineb","Arabic")
+introduction("Rachid")
+introduction_with_language("Zineb","Arabic")
+introduction_with_language_optional("rachid"
+)
 
 
 
